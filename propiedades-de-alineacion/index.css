@@ -1,0 +1,30 @@
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 150px;
+    height: 600px;
+
+    /* Centra horizontalmente la grilla */
+    /* justify-content: center; */
+
+    /* Centra vertialmente la grilla */
+    /* align-content: center; */
+
+    /* Centra horizontal y vertialmente la grilla */
+    /* place-content: center; */
+
+    /* Mover los items */
+    justify-items: end;
+    align-items: start;
+}
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
+.item-2 {
+    justify-self: start;
+    align-self: end;
+}
